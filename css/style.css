@@ -1,0 +1,93 @@
+html {
+  background-color: #5998c9;
+}
+
+body {
+  background-color: #5998c9 !important;
+  content: center;
+}
+
+html, body, .container-fluid, .row, .mapSection, #viewDiv {
+  padding: 1px;
+  margin: 0;
+  height: 98.5%;
+  width: 100%;
+}
+
+#viewDiv {
+  border:1px solid;
+  border-color: #0519ab;
+  background-color:#5998c9;
+}
+
+h1 {
+  font-size: 25px !important;
+  margin-left: -15px;
+  color:#ffffff !important;
+}
+
+#header{
+  background-color: #5998c9;
+  display: block;
+  margin: 0 auto;
+}
+
+.row{
+  text-align:center;
+  padding-top: 5px;
+}
+
+/*
+.container-fluid {
+  align: center !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+*/
+
+/*
+#8C2703
+#59321C (panels text)
+#8AC5C0
+#038C73
+ #D9B1A3; background of panels
+*/
+
+.esri-widget--button {
+  color:#aaa3d9 !important;
+  background-color: #3c5ba8 !important;
+}
+
+.esri-widget--button:hover {
+  color: #8C2703 !important;
+  background-color:#fff !important;
+}
+
+.esri-expand__container.esri-expand__container--expanded {
+  background-color: #fff !important;
+}
+
+.SANC:hover {
+  opacity: .7;
+}
+
+a.none:hover {
+  color:#fff;
+}
+
+p {
+  font-size: 12px;
+}
+
+.myPanel {
+  margin: auto;
+  background-color:#242424 !important;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  overflow-y: scroll; /* Add vertical scrollbar */
+  height: 500px;
+  width: 270px;
+  padding-top: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+

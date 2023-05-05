@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+
+      <title>Treasure Portal Home</title>
+
+      <link rel="stylesheet" href="css/style.css">
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <!-- Can also change this section to change widgets color. -->
+
+      <link rel="stylesheet" href="https://js.arcgis.com/4.18/dgrid/css/dgrid.css">
+      <link rel="stylesheet" href="https://js.arcgis.com/4.18/esri/themes/dark/main.css">
+
+
+
+    </head>
+
+    <body>
+      <div class="container-fluid">
+        <div class="row" id=header>
+          <div class="col-sm">
+            <h1>
+              <a class="none" href="https://www.napervilleparks.org/parkslist" target="_blank">
+               <img class='NPD' src="img/england_wales_icon.png" alt="NPD Logo" style="width:30px;height:30px;">
+              </a>
+              <b>England and Wales Treasure Reporting Portal</b>
+            </h1>
+          </div>
+          <div class="mapSection" id="mapBox">
+            <div id="viewDiv"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- scripts -->
+      <script src="lib/jquery-3.5.1.min.js"></script>
+      <script src="lib/bootstrap.min.js"></script>
+      <script src="lib/bootstrap.bundle.min.js"></script>
+      <script src="https://js.arcgis.com/4.18/"></script>
+      <script src="js/loadMap.js"></script>
+
+      
+
+      
+    </body>
+</html>
